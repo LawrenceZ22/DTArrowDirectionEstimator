@@ -5,6 +5,8 @@ In traditional arrow direction estimators, it is difficult for single algorithms
 
 This is one of the research output of **System Design Project 2022-2023** (Group 13), School of Informatics, The University of Edinburgh.
 
+The algorithm takes a tightly bounded arrow image (in our project, a yoloV5 detected arrow region)
+
 # Requirements
 
 OpenCV, numpy
@@ -16,3 +18,11 @@ python3 detect.py <image_filename>
 # Example Results
 
 ![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_1.png)
+
+![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_2.png)
+
+![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_4.png)
+
+even worked in some extreme cases
+
+![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_3.png)
