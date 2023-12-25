@@ -5,7 +5,7 @@ In traditional arrow direction estimators, it is difficult for single algorithms
 
 This is one of the research output of **System Design Project 2022-2023** (Group 13), School of Informatics, The University of Edinburgh.
 
-The algorithm takes a tightly bounded arrow image (in our project, a yoloV5 detected arrow region)
+The algorithm performs the best when the arrow image is tightly bounded with the image frame (as we customise this algorithm with yoloV5 detected arrows with a bounding box).
 
 # Requirements
 
@@ -23,6 +23,6 @@ python3 detect.py <image_filename>
 
 ![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_4.png)
 
-even worked in some extreme cases
+Even worked in some extreme cases!
 
 ![image](https://github.com/LawrenceZ22/DTArrowDirectionEstimator/blob/main/example_results/example_result_3.png)
